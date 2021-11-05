@@ -1,0 +1,16 @@
+[user]
+  name = Shane Fontaine
+  email = 9441295+shanefontaine@users.noreply.github.com
+  signingkey = 7C60D018460B73ED
+
+[core]
+  editor = vim
+
+[commit]
+  gpgsign = true
+
+[tag]
+  forceSignAnnotated = true
+
+[gpg]
+  program = /usr/local/bin/gpg
