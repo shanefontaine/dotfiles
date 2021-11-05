@@ -1,0 +1,15 @@
+d2h() {
+  node -e "console.log('0x'+BigInt(\"$1\").toString(16))"
+}
+
+h2d() {
+  node -e "console.log(BigInt('0x'+\"$1\".replace('0x', '')).toString())"
+}
+
+t2d() {
+  date -r "$1"
+}
+
+cointop() {
+  curl --silent -X GET "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,uniswap,rocket-pool,maker,punk-vault-nftx&vs_currencies=usd&include_24hr_change=true" -H "accept: application/json" | jq -S
+}
