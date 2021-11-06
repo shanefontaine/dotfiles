@@ -1,4 +1,4 @@
 alias l='ls -lah'
-alias devpro='cd ~/dev/professional'
-alias devper='cd ~/dev/personal'
-alias node-w3='cd ~/dev/personal/node-w3/ && node -i -e "$(< imports.js)"'
+alias devpro='cd ~/Dev/professional'
+alias devper='cd ~/Dev/personal'
+alias node-w3='cd ~/Dev/personal/node-w3/ && node -i -e "$(< imports.js)"'
