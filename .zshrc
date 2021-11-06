@@ -24,6 +24,12 @@ zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 # Histroy timestmap
 HIST_STAMPS="yyyy-mm-dd"
 
+# Custom Keybindings
+bindkey "[D" backward-word
+bindkey "[C" forward-word
+bindkey "^[a" beginning-of-line
+bindkey "^[e" end-of-line
+
 # Shane -- Review these later
 
 # Uncomment the following line if pasting URLs and other text is messed up.
