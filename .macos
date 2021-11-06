@@ -1,0 +1,14 @@
+# These are for reference and are not (yet) automated
+
+# Show hiddn files
+defaults write com.apple.Finder AppleShowAllFiles true
+
+# Don't create .DS_Store files
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+
+# Allow keys to repeat on hold
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+
+# Change screenshots directory
+# Ensure that /Users/shane/Pictures/Screenshots is a dir before running this
+defaults write com.apple.screencapture location /Users/shane/Pictures/Screenshots
