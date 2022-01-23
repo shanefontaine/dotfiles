@@ -13,7 +13,6 @@
     },
     "explorer.autoReveal": false,
     "workbench.colorTheme": "Winter is Coming (Dark Blue)",
-    "window.zoomLevel": 1,
     "diffEditor.ignoreTrimWhitespace": false,
     "files.associations": {
       "*.ts": "typescript"
@@ -858,6 +857,19 @@
       "masset",
       "backendsponsoredtxs",
       "ppdkh",
-      "unwithdrawn"
-    ]
+      "unwithdrawn",
+      "unstaking",
+      "regenesis",
+      "incompletes",
+      "existy",
+      "settleable",
+      "exitable",
+      "htoken",
+      "debouncer",
+      "reencrypt",
+      "reencryption",
+      "movr"
+    ],
+    "vim.vimrc.enable": true,
+    "window.zoomLevel": 3
   }

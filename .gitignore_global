@@ -1,4 +1,4 @@
-# Copied from @jacobtomlinson:
+# Copied from @jacobtomlinson and modified
 # https://gist.github.com/jacobtomlinson/aace65a6920e44348d501da5e13a5a17
 
 # Compiled source #
@@ -39,9 +39,52 @@
 ._*
 .Spotlight-V100
 .Trashes
+Icon?
 ehthumbs.db
 Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
 desktop.ini
+
+# Numerous always-ignore extensions #
+#####################################
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.cache
+
+# Folders to ignore #
+#####################
+node_modules
+.hg
+.svn
+.CVS
+intermediate
+publish
+.idea
+.graphics
+_jar
+_test
+_archive
+_test
+serve
+
+# IDE files #
+#############
+.vscode
+.idea
+.iml
+*.sublime-workspace
 
 # Temporary files #
 ###################
@@ -51,9 +94,20 @@ desktop.ini
 *~
 *#
 
-# IDE files #
-#############
-.vscode
-.idea
-.iml
-*.sublime-workspace
+# Files to ignore #
+######################
+*.autosave
+
+# IMPORTANT Personalized files #
+################################
+*.local
+ssh
+.ssh
+aws
+.aws
+dotfiles_private
+.dotfiles_private
+docker
+.docker
+config
+.config
